@@ -1,0 +1,111 @@
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+body > header {
+    background-color: blue;
+}
+h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 2rem;
+    text-align: left;
+}
+main {
+    margin: auto;
+    display: block;
+    padding: 4rem;
+    max-width: 1170px;
+}
+h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+form {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.wraper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.wraper div {
+    display: grid;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+input, select {
+    padding: 8px;
+    width: 180px;
+    font-size: 16px;
+    width: auto;
+    font-size: 18px;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.add_btn {
+    padding: 8px;
+    width: 80px;
+    font-size: 16px;
+    width: auto;
+    font-size: 18px;
+    height: fit-content;
+    margin-top: 2rem;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.info {
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(176, 250, 225);
+}
+.head {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
+    grid-gap: 1rem;
+    align-items: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.book_list {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.book_item {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr .8fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    border-bottom: 1px solid rgb(165, 163, 163);
+}
+.delete_btn {
+    cursor: pointer;
+    transition: transform 0.2s;
+    color: white;
+}
