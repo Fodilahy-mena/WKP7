@@ -1,5 +1,8 @@
 body {
-    background-color: lightgrey;
+    background-image: url('./library.jpg');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
     font-family: sans-serif;
 }
 
@@ -59,7 +62,7 @@ input, select {
 }
 .add_btn {
     padding: 8px;
-    width: 80px;
+    width: 100%;
     font-size: 16px;
     width: auto;
     font-size: 18px;
@@ -85,15 +88,24 @@ input, select {
     grid-gap: 1rem;
     align-items: left;
     text-transform: uppercase;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 12px;
 }
 
-.book_list {
+.book_list,
+.book-lists {
     padding: 2rem;
     background-color: white;
+    
+}
+.book_list {
+ padding-bottom: 0;
+ 
+}
+.book-lists {
+    padding-block-start: 0;
     border-radius: 0px 0px 10px 10px;
 }
-
 .book_item {
     box-sizing: border-box;
     display: grid;
